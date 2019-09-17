@@ -169,3 +169,62 @@ a {
     margin-right: 450px;
     margin-left: 450px;
 }
+
+.navBar {
+    /*border: 2px solid white;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 35px;
+}
+
+.navBar .textBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    /* border: 3px dashed white; */
+    font-size: 52pt;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.targaryen {
+    /* border: 2px solid purple; */
+    vertical-align: middle;
+}
+
+.a {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topBox {
+    /* border: 2px solid dodgerblue; */
+    text-align: center;
+}
+
+.midBox1 {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+}
+
+.midBox1 .danyImage {
+    /* border: 2px solid midnightblue; */
+    padding-right: 15px;
+}
+
+.midBox1 .bioBox {
+    /* border: 2px solid yellow; */
+    padding: 15px;
+    text-align: center;
+}
