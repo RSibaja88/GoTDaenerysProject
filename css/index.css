@@ -144,7 +144,7 @@
                     body {
                         height: 100%;
                         font-family: 'Cinzel', serif;
-                        color: white;
+                        color: whitesmoke;
                     }
                     
                     h1,
@@ -220,7 +220,7 @@
                         /* border: 2px solid orange; */
                         display: flex;
                         flex-direction: row;
-                        justify-content: center;
+                        justify-content: right;
                     }
                     
                     .midBox1 .danyImage {
