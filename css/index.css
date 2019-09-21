@@ -1,230 +1,246 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+                    /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-    background-image: linear-gradient(#160101, #4B0303);
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-/* Set every element's box-sizing to border-box */
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    height: 100%;
-    font-family: 'Cinzel', serif;
-    color: white;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-a {
-    font-family: 'Cinzel Decorative', cursive;
-    letter-spacing: 1.5px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: whitesmoke;
-}
-
-.allContent {
-    margin: auto 0;
-    margin-right: 450px;
-    margin-left: 450px;
-}
-
-.navBar {
-    /*border: 2px solid white;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 35px;
-}
-
-.navBar .textBox {
-    display: flex;
-    flex-direction: column;
-}
-
-.title {
-    /* border: 3px dashed white; */
-    font-size: 52pt;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.targaryen {
-    /* border: 2px solid purple; */
-    vertical-align: middle;
-}
-
-.a {
-    /* border: 2px solid green; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-a {
-    text-decoration: none;
-}
-
-.topBox {
-    /* border: 2px solid dodgerblue; */
-    text-align: center;
-}
-
-.midBox1 {
-    /* border: 2px solid orange; */
-    display: flex;
-    flex-direction: row;
-}
-
-.midBox1 .danyImage {
-    /* border: 2px solid midnightblue; */
-    padding-right: 15px;
-}
-
-.midBox1 .bioBox {
-    /* border: 2px solid yellow; */
-    padding: 15px;
-    text-align: center;
-}
+                    
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td,
+                    article,
+                    aside,
+                    canvas,
+                    details,
+                    embed,
+                    figure,
+                    figcaption,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    output,
+                    ruby,
+                    section,
+                    summary,
+                    time,
+                    mark,
+                    audio,
+                    video {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        font-size: 100%;
+                        font: inherit;
+                        vertical-align: baseline;
+                    }
+                    /* HTML5 display-role reset for older browsers */
+                    
+                    article,
+                    aside,
+                    details,
+                    figcaption,
+                    figure,
+                    footer,
+                    header,
+                    hgroup,
+                    menu,
+                    nav,
+                    section {
+                        display: block;
+                    }
+                    
+                    body {
+                        line-height: 1;
+                        background-image: linear-gradient(#160101, #4B0303);
+                    }
+                    
+                    ol,
+                    ul {
+                        list-style: none;
+                    }
+                    
+                    blockquote,
+                    q {
+                        quotes: none;
+                    }
+                    
+                    blockquote:before,
+                    blockquote:after,
+                    q:before,
+                    q:after {
+                        content: '';
+                        content: none;
+                    }
+                    
+                    table {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                    }
+                    /* Set every element's box-sizing to border-box */
+                    
+                    * {
+                        box-sizing: border-box;
+                    }
+                    
+                    html,
+                    body {
+                        height: 100%;
+                        font-family: 'Cinzel', serif;
+                        color: white;
+                    }
+                    
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    a {
+                        font-family: 'Cinzel Decorative', cursive;
+                        letter-spacing: 1.5px;
+                        margin-bottom: 15px;
+                        font-weight: bold;
+                        color: whitesmoke;
+                    }
+                    
+                    .allContent {
+                        margin: auto 0;
+                        margin-right: 15%;
+                        margin-left: 15%;
+                    }
+                    
+                    .titleBar {
+                        /* border: 2px solid white; */
+                        display: flex;
+                        flex-direction: inline-block;
+                        justify-content: center;
+                        padding-bottom: 5px;
+                    }
+                    
+                    .titleBar .textBox {
+                        /* border: 2px solid teal; */
+                        display: block;
+                        /* flex-direction: column;
+                        justify-content: space-between; */
+                    }
+                    
+                    .title {
+                        /* border: 3px dashed white; */
+                        font-size: 52pt;
+                        text-align: center;
+                        padding-top: 60px;
+                        margin-left: 0px;
+                    }
+                    
+                    .targaryen {
+                        /* border: 2px solid purple; */
+                        margin: 0px;
+                        margin-top: 30px;
+                        margin-bottom: 55px;
+                    }
+                    
+                    .a {
+                        /* border: 2px dashed green; */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-top: 5px;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        /* border: 3px solid hotpink; */
+                    }
+                    
+                    .topBox {
+                        /* border: 2px solid dodgerblue; */
+                        text-align: center;
+                    }
+                    
+                    .midBox1 {
+                        /* border: 2px solid orange; */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
+                    
+                    .midBox1 .danyImage {
+                        /*border: 2px solid midnightblue;
+                        */
+                        padding-right: 15px;
+                        opacity: .5;
+                        filter: alpha(opacity=50);
+                        -webkit-filter: alpha(opacity=50);
+                    }
+                    
+                    .midBox1 .bioBox {
+                        /* border: 2px solid yellow; */
+                        margin-left: 15px;
+                        padding: 15px;
+                        padding-top: 30px;
+                        text-align: center;
+                        font-size: 11.25pt;
+                        background-color: #410f0f;
+                        box-shadow: 2px 2px 5px 6px #b0a4a4;
+                        width: 130px;
+                        height: 450px;
+                    }
